@@ -6,7 +6,7 @@ const router = Router();
 // http://localhost:3000/api/v1/user
 router.post("/v1/user", createUser);
 
-// http://localhost:3000/api/v1/user/:id
+// http://localhost:3000/api/v1/user/:id + el id
 router.put("/v1/user/:id", updateUser);
 
 export default router;
